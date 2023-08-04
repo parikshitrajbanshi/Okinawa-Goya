@@ -1,0 +1,136 @@
+html {
+    /* a link element id on scroll behavior */
+    scroll-behavior: smooth;
+    scroll-padding-top:67px;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid darkcyan;
+    box-shadow: 0 0 1rem darkcyan;
+    z-index: 0;
+}
+
+.bg-pale-cyan {
+    background-color: rgba(0, 188, 234, 0.75);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.link-btn.bg-white:hover {
+    background-color: rgba(0, 188, 234, 0.75);
+    color: white;
+    border-color: white;
+}
+
+.link-btn.bg-pale-cyan:hover {
+    background-color: white;
+    color: darkcyan;
+    border-color: darkcyan;
+}
+
+.nav-bar>a {
+    display: inline-block;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.nav-bar>a:hover {
+    color: white;
+}
+
+.top-image {
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.div-overlap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: darkblue;
+}
+
+.top-image>img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+    -o-object-position: center;
+}
+
+.topic {
+    padding: 1rem;
+}
+
+.text-underline {
+    text-decoration: 2px double underline darkcyan;
+}
+
+.text-darkblue {
+    color: darkblue;
+}
+
+.text-white {
+    color: white;
+}
+
+.div-table {
+    display: table;
+    width: 100%;
+    height: 300px;
+}
+
+.div-table-cell {
+    display: table-cell;
+    width: 50%;
+    height: inherit;
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+
+.topic-img {
+    height: 90%;
+}
+
+.link-btn {
+    text-decoration: none;
+    border: 1px solid gray;
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+/* horizontally aligin center for inline element */
+.text-center {
+    text-align: center;
+}
+
+/* horizontally align left for inline element */
+.text-left {
+    text-align: left;
+}
+b{
+    color:  red;
+}
